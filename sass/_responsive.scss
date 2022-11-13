@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .nav main .nav list {
+    display: inline-block;
+  }
+   .card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
+  footer {
+    display: none;
+    .getlist{
+      display: none;
+    }
+    .showcase {
+      width: 100%;
+    }
+  }
+}

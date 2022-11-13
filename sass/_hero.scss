@@ -1,0 +1,51 @@
+.hero {
+  background-color: black;
+  display: flex;
+
+  .img {
+    float: right;
+  }
+ 
+   h2 {
+    font-family: "Open" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 130%;
+    color: $white;
+    text-transform: uppercase;
+    position: absolute;
+    width: 500px;
+    height: 36px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 860px;
+
+  }
+  p {
+    position: absolute;
+    width: 600px;
+    height: 138px;
+    left: 80px;
+    top: 309px;
+    font-family: "Open" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 167.5%;
+    color: $white;
+  }
+  .hero-p2 {
+    position: absolute;
+    width: 511px;
+    height: 23px;
+    left: 80px;
+    top: 527px;
+    font-family: 'Open' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 167.5%;
+    color: $white;
+  }
+}
